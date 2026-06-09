@@ -14,7 +14,7 @@ Grab the build for your platform from the **[latest release](../../releases/late
 
 | Platform | File |
 |---|---|
-| macOS (Apple Silicon) | `upcheckr-macos-arm64` |
+| macOS (Apple Silicon) | `upcheckr-macos-arm64.dmg` (installer) — or the raw `upcheckr-macos-arm64` |
 | Linux x86-64 | `upcheckr-linux-x64` |
 | Linux arm64 | `upcheckr-linux-arm64` |
 | Windows | `upcheckr-windows-x64.exe` |
@@ -24,7 +24,8 @@ Each file ships with a matching `.sha256`. Then:
 
 ```sh
 chmod +x upcheckr-macos-arm64
-UPCHECKR_ADMIN_PASSWORD=secret ./upcheckr-macos-arm64
+./upcheckr-macos-arm64          # first run asks you to set an admin password
+# --port 9000 to change the port; --reset-password to change it later
 ```
 
 Open http://localhost:8080. Data lives in SQLite at `~/.upcheckr/upcheckr.db`.
