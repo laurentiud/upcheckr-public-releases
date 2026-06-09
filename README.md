@@ -2,6 +2,14 @@
 
 Prebuilt binaries for **upcheckr** — the self-hosted, push-based live metrics wall.
 
+## Homebrew (macOS / Linux)
+
+```sh
+brew install laurentiud/tap/upcheckr
+```
+
+## Direct download
+
 Grab the build for your platform from the **[latest release](../../releases/latest)**:
 
 | Platform | File |
