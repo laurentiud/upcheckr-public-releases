@@ -28,6 +28,6 @@ chmod +x upcheckr-macos-arm64
 # --port 9000 to change the port; --reset-password to change it later
 ```
 
-Open http://localhost:8080. Data lives in SQLite at `~/.upcheckr/upcheckr.db`.
+Open http://localhost:7090. Data lives in SQLite at `~/.upcheckr/upcheckr.db`.
 
 See [LICENSE](LICENSE) for terms.
